@@ -1,0 +1,41 @@
+.icon-edit {
+    /* Rotate the pencil icon so that it faces the other direction */
+    transform: rotateZ(90deg);
+}
+
+.button-edit {
+    margin-inline: .5rem;
+}
+
+.modal {
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    background-color: grey;
+}
+
+.modal > h2 {
+    text-align: center;
+}
+
+.modal-submit {
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.modal-textarea {
+    display: block;
+    width: 40rem;
+    height: 10rem;
+}
+
+.noChange {
+    background-color: grey;
+}
+
+.change {
+    background-color: green;
+}
